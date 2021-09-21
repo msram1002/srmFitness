@@ -151,7 +151,7 @@
 /* Services Section */
 
 .services {
-  padding: 8rem calc((100vw-1200px)/ 2);
+  padding: 8rem calc((100vw - 1200px)/ 2);
 }
 
 .services__container {
@@ -180,7 +180,6 @@
 
 .services__features {
   list-style: none;
-  margin-left: 3rem;
 }
 
 .services__feature {
@@ -284,7 +283,7 @@ p.membership__desc {
 /* Team Section */
 
 .team {
-  padding: 8rem calc((100vw-1100px)/2);
+  padding: 8rem calc((100vw - 1100px) / 2);
 }
 
 .team__wrapper {
