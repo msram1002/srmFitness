@@ -245,6 +245,7 @@ p.membership__desc {
 
 .membership__perks {
   min-height: 150px;
+  text-align:center ;
 }
 
 .membership__perks .membership__popular {
@@ -255,7 +256,13 @@ p.membership__desc {
 }
 
 .membership__card p {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.membership__joiningfee {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  font-style: italic;
 }
 
 .card-icon {
