@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="styles.css">
   <title>SRM Fitness</title>
 </head>
@@ -20,11 +22,10 @@
       <span class="bar"></span>
     </div>
     <div class="navbar__menu">
-      <a href="/" class="navbar__link">Home</a>
-      <a href="/services.html" class="navbar__link">Services</a>
-      <a href="/plans.html" class="navbar__link">Plans</a>
-      <a href="/trainers.html" class="navbar__link">Trainers</a>
-      <a href="/contactus.html" class="navbar__link">Contact us</a>
+      <a href="/" class="navbar__link"><i class="fas fa-home"></i> Home</a>
+      <a href="#section-1" class="navbar__link"><i class="fas fa-concierge-bell"></i> Services</a>
+      <a href="#section-2" class="navbar__link"><i class="fas fa-hand-holding-usd"></i> Plans</a>
+      <a href="#section-3" class="navbar__link"><i class="fas fa-walking"></i> Trainers</a>
     </div>
   </nav>
   <!-- Hero Section -->
@@ -36,7 +37,7 @@
     </div>
   </div>
   <!--  Services Section -->
-  <div class="services">
+  <div class="services" id="section-1">
     <div class="services__container">
       <p class="topline">Features</p>
       <h1 class="services__heading">What we offer</h1>
@@ -71,12 +72,12 @@
         </p>
       </div>
       <div>
-        <img src="./images/gym-1.jpg" alt="gym_services" class="services__img"/>
+        <img src="./images/gym-1.jpg" alt="gym_services" class="services__img" />
       </div>
     </div>
   </div>
   <!-- Membership/Plans Section -->
-  <div class="memberships">
+  <div class="memberships" id="section-2">
     <h1>View our plans</h1>
     <p class="membership__desc">Get started today and receive 25% off on your first month!</p>
     <div class="membership__wrapper">
@@ -120,33 +121,36 @@
     </div>
   </div>
   <!-- Team Section -->
-  <div class="team">
+  <div class="team" id="section-3">
     <div class="team__wrapper">
       <div class="team__text">
         <p class="topline">Private Coaching</p>
         <h1>Meet our trainers</h1>
-        <p class="team__desc">All our personal trainers are well experienced and specialized in strength and mobility workouts.</p>
+        <div class="brand__border"></div>
+        <p class="team__desc">All our personal trainers are well experienced and specialized in strength and mobility
+          workouts.</p>
       </div>
       <div class="team__text">
         <p class="topline">Free Trail Coaching</p>
         <h1>7-Day Trail</h1>
+        <div class="brand__border"></div>
         <p class="team__desc">You can work with any trainer for 7 days to see if they fit your goals.</p>
       </div>
       <div class="team__card">
         <p>Sarah</p>
-        <img src="./images/pic1.jpg" alt="trainer1" class="team__img"/>
+        <img src="./images/pic1.jpg" alt="trainer1" class="team__img" />
       </div>
       <div class="team__card">
         <p>John</p>
-        <img src="./images/pic2.jpg" alt="trainer1" class="team__img"/>
+        <img src="./images/pic2.jpg" alt="trainer1" class="team__img" />
       </div>
       <div class="team__card">
         <p>Kyle</p>
-        <img src="./images/pic4.jpg" alt="trainer1" class="team__img"/>
+        <img src="./images/pic4.jpg" alt="trainer1" class="team__img" />
       </div>
       <div class="team__card">
         <p>Mark</p>
-        <img src="./images/pic3.jpg" alt="trainer1" class="team__img"/>
+        <img src="./images/pic3.jpg" alt="trainer1" class="team__img" />
       </div>
     </div>
   </div>
@@ -166,6 +170,34 @@
     </div>
   </div>
   <!-- Footer Section -->
+  <div class="footer">
+    <div class="footer__desc">
+      <h1>SRM Fitness</h1>
+      <p><i class="fas fa-map-marker-alt"></i> Luxury Fitness Gym located in downtown Newyork.</p>
+      <p id="phone"><i class="fas fa-phone-volume"></i> (123) 456 - 7890</p>
+    </div>
+    <div class="footer__wrapper">
+      <div class="footer__links">
+        <h2 class="footer__title"><i class="fas fa-user"></i> Contact</h2>
+        <a href="/" class="footer__link">About us</a>
+        <a href="/" class="footer__link">Support</a>
+        <a href="/" class="footer__link">Sponsorships</a>
+      </div>
+      <div class="footer__links">
+        <h2 class="footer__title"><i class="fas fa-dollar-sign"></i> Memberships</h2>
+        <a href="" class="footer__link">Pricing</a>
+        <a href="" class="footer__link">Plans</a>
+        <a href="" class="footer__link">FAQ</a>
+      </div>
+      <div class="footer__links">
+        <h2 class="footer__title"><i class="fas fa-globe"></i> Social Media</h2>
+        <a href="" class="footer__link">Instagram</a>
+        <a href="" class="footer__link">Facebook</a>
+        <a href="" class="footer__link">Twitter</a>
+      </div>
+    </div>
+    <div class="company__info">@ SRM Fitness 2021</div>
+  </div>
   <script src="app.js"></script>
 </body>
 
