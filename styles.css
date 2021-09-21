@@ -156,13 +156,14 @@
 
 .services__container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   padding: 1rem 2rem;
 }
 
 .services__img {
   width: 100%;
   height: 100%;
+  border-radius: 1rem;
 }
 
 .topline {
@@ -179,6 +180,7 @@
 
 .services__features {
   list-style: none;
+  margin-left: 3rem;
 }
 
 .services__feature {
@@ -194,5 +196,87 @@
 @media screen and (max-width: 768px) {
   .services__container {
     grid-template-columns: 1fr;
+  }
+
+  .services__features {
+    margin-left: 1rem;
+  }
+}
+
+/* Membership Section */
+
+.memberships {
+  background: var(--black);
+  color: var(--white);
+  padding: 6rem calc((100vw - 1100px) / 2);
+  text-align: center;
+}
+
+.memberships h1 {
+  margin-bottom: 1rem;
+  font-size: clamp(2rem, 5vw, 3rem);
+  padding: 0 1rem;
+}
+
+p.membership__desc {
+  margin-bottom: 2rem;
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  padding: 1rem;
+}
+
+.membership__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.membership__card {
+  padding: 2rem;
+  min-height: 450px;
+  width: 325px;
+  background: var(--white);
+  color: var(--black);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.membership__perks {
+  min-height: 150px;
+}
+
+.membership__perks .membership__popular {
+  color: var(--red);
+  font-weight: 700;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.membership__card p {
+  margin-bottom: 1rem;
+}
+
+.card-icon {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: var(--red);
+}
+
+.membership__card h3 {
+  font-size: clamp(1rem, 5vw, 2rem);
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 991px) {
+  .membership__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .membership__card {
+    width: 65%;
+    margin-bottom: 2rem;
   }
 }
