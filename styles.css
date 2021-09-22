@@ -8,7 +8,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Kanit', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -27,7 +28,7 @@
   text-decoration: none;
   padding-left: 1.5rem;
   font-size: 1.9rem;
-  font-style: italic;
+  font-family: 'Righteous', cursive;
 }
 
 .navbar__link {
@@ -122,8 +123,8 @@
 
 .hero__content h1 {
   font-size: clamp(3rem, 8vw, 6rem);
-  text-transform: uppercase;
   margin-bottom: 0.5rem;
+  font-family: 'Chakra Petch', sans-serif;
 }
 
 .hero__content p {
@@ -177,6 +178,7 @@
 .services__heading {
   margin-bottom: 1rem;
   font-size: clamp(2rem, 6vw, 3rem);
+  font-family: 'Chakra Petch', sans-serif;
 }
 
 .services__features {
@@ -216,6 +218,7 @@
   margin-bottom: 1rem;
   font-size: clamp(2rem, 5vw, 3rem);
   padding: 0 1rem;
+  font-family: 'Chakra Petch', sans-serif;
 }
 
 p.membership__desc {
@@ -320,13 +323,17 @@ p.membership__desc {
 .team__text h1 {
   margin-bottom: 1rem;
   font-size: 2rem;
-  clear: both;
+  font-family: 'Chakra Petch', sans-serif;
 }
 
-.team__desc {
+.team__desc__1, .team__desc__2 {
   font-size: clamp(1rem, 3vw, 2rem);
   line-height: 1.4;
   text-align: right;
+}
+
+.team__desc__2 {
+  text-align: left;
 }
 
 .team__card p {
@@ -441,6 +448,7 @@ p.membership__desc {
   margin-bottom: 1rem;
   font-size: clamp(1rem, 5vw, 3rem);
   padding: 0 1rem;
+  font-family: 'Chakra Petch', sans-serif;
 }
 
 .email__content p {
@@ -506,7 +514,8 @@ form {
 .footer__desc h1 {
   margin-bottom: 2rem;
   color: var(--red);
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-family: 'Chakra Petch', sans-serif;
 }
 
 .footer__desc p {
@@ -547,6 +556,7 @@ form {
 }
 
 .company__info {
+  font-family: 'Chakra Petch', sans-serif;
   text-align: center;
   margin-top: 4rem;
 }

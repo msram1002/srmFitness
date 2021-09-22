@@ -25,7 +25,7 @@ gsap.from('.animate-hero', {
 
 gsap.from('.animate-services', {
   scrollTrigger: '.animate-services',
-  duration: 0.5,
+  duration: 0.4,
   opacity: 1,
   x: -150,
   stagger: 0.2
@@ -33,7 +33,7 @@ gsap.from('.animate-services', {
 
 gsap.from('.animate-img', {
   scrollTrigger: '.animate-img',
-  duration: 2,
+  duration: 1.5,
   opacity: 0,
   x: 500,
   stagger: 0.5
